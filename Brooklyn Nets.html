@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="layout.css">
+</head>
   <h1> <center>Tri-state Sports </center> <h1>
   <figure>
     <center><img src="images/sports2.png" alt="Sports"
@@ -9,52 +13,50 @@
 
   </figure>
 <body>
-  <h2>
-    <a href="index.html">Home</a>
-    <!--Baseball-->
-      <details>
-        <summary>New York Baseball</summary>
-        <ul>
-          <li><a href="New York Yankees.html">New York Yankees</a></li>
-          <li><a href="New York Mets.html">New York Mets</a></li>
-        </ul>
-      </details>
-      <!--Football-->
-      <details>
-        <summary>New York Football</summary>
-        <ul>
-          <li><a href="New York Giants.html">New York Giants</a></li>
-          <li><a href="New York Jets.html">New York Jets</a></li>
-        </ul>
-      </details>
-      <!--Basketball-->
-      <details>
-        <summary>New York Basketball</summary>
-        <ul>
-          <li><a href="New York Knicks.html">New York Knicks</a></li>
-          <li><a href="Brooklyn Nets.html">Brooklyn Nets</a></li>
-        </ul>
-      </details>
-      <!--Hockey-->
-      <details>
-        <summary>New York Hockey</summary>
-        <ul>
-          <li><a href="New York Rangers.html">New York Rangers</a></li>
-          <li><a href="New York Islanders.html">New York Islanders</a></li>
-          <li><a href="New Jersey Devils.html">New Jersey Devils</a></li>
-        </ul>
-      </details>
-      <pre>
-<a href="Stevens Sports.html">Stevens Sports</a>
-<a href="Discussion Board.html">Discussion Board</a>
-    </pre>
-  </h2>
-  <style>
-    table, th, td {
-        border: 1px solid black;
-      }
-  </style>
-  </head>
+
+  <h3>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">New York Baseball<a/>
+          <div class="dropdown-content">
+            <a href="New York Yankees.html">New York Yankees</a>
+            <a href="New York Mets.html">New York Mets</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">New York Football<a/>
+            <div class="dropdown-content">
+              <a href="New York Giants.html">New York Giants</a>
+              <a href="New York Jets.html">New York Jets</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">New York Basketball<a/>
+              <div class="dropdown-content">
+                <a href="New York Knicks.html">New York Knicks</a>
+                <a href="Brooklyn Nets.html">Brooklyn Nets</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">New York / New Jerey Hockey<a/>
+                <div class="dropdown-content">
+                  <a href="New York Rangers.html">New York Rangers</a>
+                  <a href="New York Islanders.html">New York Islanders</a>
+                  <a href="New Jersey Devils.html">New Jersey Devils</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"> Stevens Sports<a/>
+                  <div class="dropdown-content">
+                    <a href="Stevens Mens Sports.html">Mens Sports</a>
+                    <a href="Stevens Womens Sports.html">Womens Sports</a>
+                  </div>
+                </li>
+      <li><a href="Discussion Board.html">Discussion Board</a></li>
+    </ul>
+  </h3>
+
   <table>
     <tr>
       <td>
@@ -66,15 +68,27 @@
       </td>
     </tr>
   </table>
-  <style>
-    table, th, td {
-        border: 1px solid black;
-      }
-  </style>
-  <table>
+</br>
+  <table class="schedule">
     <tr>
       <th>Schedule</th>
     </tr>
+    <tr>
+      <td>11/8 - <a href="https://www.ticketmaster.com/brooklyn-nets-tickets/artist/805983">Nets vs. Bulls @8:00pm</a></td>
+    </tr>
+    <tr>
+      <td>11/10 - <a href="https://www.ticketmaster.com/brooklyn-nets-tickets/artist/805983">Nets vs. Magic @7:00pm</a></td>
+    </tr>
+    <tr>
+      <td>11/12- <a href="https://www.ticketmaster.com/brooklyn-nets-tickets/artist/805983">Nets vs. Pelicans @8:00pm</a></td>
+    </tr>
+    <tr>
+      <td>11/14 - <a href="https://www.ticketmaster.com/brooklyn-nets-tickets/artist/805983">Nets vs. Thunder @7:00pm</a></td>
+    </tr>
+    <tr>
+      <td>11/16 - <a href="https://www.ticketmaster.com/brooklyn-nets-tickets/artist/805983">Warriors vs. Nets @7:30pm</a></td>
+    </tr>
   </table>
 </body>
-<center><p> <small>Copyright &copy: 2021 Tri-state Sports</small></p></center>
+<div class="copyright"><center><p> <small>Copyright &copy: 2021 Tri-state Sports</small></p></center></div>
+</html>
